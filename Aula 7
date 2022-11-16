@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+    <p> 16/11/2022</p>
+    <h1>AV2 </h1>
+    <p1>Exercicios da Aula 7 estarão logo a baixo:<br>
+        <br>
+        <fieldset>
+
+            <legend> Formulário com campos de entrada e um botão de enviar</legend>
+            <form>
+                <br> Digite o sua matricula:<input type="text" class="full" id="nome" name="nome"
+                    placeholder="************">
+
+                <br>
+
+                <br> Digite o seu email:<input type="text" class="full" id="nome" name="nome" placeholder="email">
+
+                <br>
+
+                <br>Data de nascimento:<input type="text" class="full" id="nome" name="nome" placeholder="dd/mm/aaaa">
+
+                <br>
+
+                <br>Digite a senha para acessar o Sia:<input type="text" class="full" id="nome" name="nome"
+                    placeholder="Digite a Senha">
+
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend> Formulário com caixas de seleção (checkbox)</legend>
+            Qual você prefere?
+            <h3>
+                <n></n>
+            </h3>
+            <ol>
+                Bike <input type="checkbox" name="6">
+
+                <br>
+
+                <br> Moto<input type="checkbox" name="car">
+
+                <br>
+
+                <br> Carro<input type="checkbox" name="car">
+                <br>
+
+        </fieldset>
+
+        </ol>
+
+        <fieldset>
+
+            <legend> Formulário com botões radiais</legend>
+            Você está joigando Lol, qual desses campeões você escolheria?
+            <img src="http://1.bp.blogspot.com/-GqGmeHulSHk/VeSuaFbZ5dI/AAAAAAAAAE4/vLsWesmZ1TE/s320/bOxDG2w.jpg"
+                alt="image" height="200" width="400" <br>
+
+            <br> Escolha um:
+
+            <br>
+
+            <form>
+                <input type="radio" name="veiculo1" value="bicicleta">Master yi<br>
+                <input type="radio" name="veiculo2" value="carro">Fiora<br>
+                <input type="radio" name="veiculo3" value="moto">Leona <br>
+                <input type="radio" name="veiculo3" value="moto">Lucian<br>
+                <input type="radio" name="veiculo3" value="moto">Zed<br>
+            </form>
+
+            <br> Ao colocar seu email, você irá ganhar a skin escolhida: <br>
+
+            <form>
+
+                <input type="text" class="full" id="" name="" placeholder="Digite seu email">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+
+        </fieldset>
+        </form>
+
+        </form>
+
+        <fieldset>
+
+            <legend> Formulário com campo de login e senha (senha com asteriscos)</legend>
+            <br> Login: <input type="text" class="full" id="" name="" placeholder="">
+            <br>
+            Senha: <input type="text" name="password" style="text-security:disc; -webkit-text-security:disc;">
+        </fieldset>
+        <br>
+        <input type="submit" value="Gravar resposta" />
+</body>
