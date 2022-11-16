@@ -43,3 +43,29 @@ b) <!DOCTYPE html>
 
    </body>
 </html>
+
+c) <!DOCTYPE html>
+<html>
+<head>
+</head>
+   <body>
+
+   <fieldset>
+   
+   <legend> AV2</legend>
+   <form>
+   <br> Digite sua Matricula :<input type="text" class="full" id="nome" name="nome"  placeholder="************" >
+             
+<br> 
+   <br>Digite a senha do SIA:<input type="text" class="full" id="nome" name="nome" placeholder="Digite sua senha">
+
+<br>  
+
+<script>
+   var opc;
+   opc=confirm("Deseja continuar?");			
+</script>
+   </form>
+   </fieldset>
+   </body>
+</html>
