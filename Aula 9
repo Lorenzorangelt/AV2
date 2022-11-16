@@ -16,4 +16,30 @@ a) <!DOCTYPE html>
 </body>
 </html>
 
-b)
+b) <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+   <body>
+
+   <fieldset>
+   <legend> AV2</legend>
+   <form>
+	<br> Digite o seu Nome:<input type="text" class="full" id="nome" name="nome"  placeholder="nome do aluno" >
+             
+<br> 
+	<br>Digite a senha para acessar os dados da pesquisa posteriormente:<input type="text" class="full" id="nome" name="nome" placeholder="Digite a Senha">
+
+<br>  
+<script>
+   var nome;
+   nome=prompt("Por favor digite seu email antes de acessar o site","Digite seu email aqui");
+   document.write(nome);
+</script>
+
+   </form>
+   </fieldset>
+
+   </body>
+</html>
