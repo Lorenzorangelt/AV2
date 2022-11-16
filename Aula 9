@@ -1,0 +1,19 @@
+3) Faça um programa que possua os seguintes itens: 
+a) <!DOCTYPE html>
+<html>
+<head>
+<title>AV2</title>
+</head>
+<body>
+
+<h1>Caixa de mensagem Alter</h1>
+<p>Vê se dá certo.</p>
+<script>
+	var Github="https://github.com/Lorenzorangelt/AV2";
+	alert("Erro professor Wagner, Acessar o link a baixo porfavor. \n" + Github);
+</script>
+
+</body>
+</html>
+
+b)
